@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #f2f2f2;
+}
+
+h5,
+h6 {
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  width: 100vw;
+}
+
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 40px;
+  color: #232527;
+  margin: 10px 0 30px;
+}
+
+.content {
+  display: flex;
+}
+
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 75%;
+}
+
+.grid div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* width: 125px; */
+  height: 150px;
+  color: #ffffff;
+  font-weight: bold;
+  background-color: #1890ff;
+  box-shadow: 0px 4px 30px rgba(8, 55, 72, 0.21);
+  border-radius: 4px;
+  justify-content: center;
+  align-content: center;
+  font-size: 40px;
+}
+
+.score {
+  width: 20%;
+  margin-left: 5%;
+}
+
+.card {
+  padding: 5px 10px;
+  border-radius: 4px;
+  border-color: #fff;
+}
+
+.options {
+  display: flex;
+  align-items: center;
+  margin: 20px 0;
+}
+
+.button {
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  background-color: transparent;
+  border: none;
+  font-size: 12px;
+  font-weight: lighter;
+  background-color: #1890ff;
+  color: #fff;
+  padding: 10px;
+  margin: 5px 0;
+}
+
+.score .card h2 span {
+  color: #1890ff;
+}
+
+hr {
+  width: 50%;
+  margin: 25px 0;
+  border-color: #888282;
+}
+
+.score-numbers {
+  margin: 15px 0;
+  letter-spacing: 5px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.options-title {
+  font-weight: bold;
+}
+
+.score-title {
+  font-weight: bold;
+}
+
+.options select {
+  margin-left: 15px;
+  border-color: #b2b2b2;
+  font-size: 13px;
+  color: #5f5a5a;
+  width: 70%;
+  height: 30px;
+}
